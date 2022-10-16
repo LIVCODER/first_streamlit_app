@@ -27,8 +27,8 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 streamlit.dataframe(fruityvice_normalized)
 
 #obtaining and displaying input from user
-fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
-streamlit.write('The user entered ', fruit_choice)
+# fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
+# streamlit.write('The user entered ', fruit_choice)
 
 # create repeatable code block
 def get_fruityvice_data(this_fruit_choice):
