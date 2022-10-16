@@ -24,4 +24,4 @@ streamlit.dataframe(fruityvice_normalized)
 #obtaining and displaying input from user
 fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
 streamlit.write('The user entered ', fruit_choice)
-#import snowflake.connector
+# import snowflake.connector
